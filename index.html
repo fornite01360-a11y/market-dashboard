@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Market Impact Dashboard</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .status {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .green { color: #22c55e; }
+    .orange { color: #f97316; }
+    .red { color: #ef4444; }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>📊 Market Impact Dashboard</h1>
+
+<div class="grid">
+
+  <div class="card">
+    <h2>🔥 État du Marché</h2>
+    <p class="status red">🔴 Marché très impacté</p>
+    <p>Volatilité élevée, attention.</p>
+  </div>
+
+  <div class="card">
+    <h2>📈 Marché le plus touché</h2>
+    <p class="status orange">🟠 Crypto</p>
+    <p>Mouvement important sur BTC / ETH</p>
+  </div>
+
+  <div class="card">
+    <h2>⚠️ Facteurs d’impact</h2>
+    <ul>
+      <li>Décision de la FED</li>
+      <li>Inflation (CPI)</li>
+      <li>Guerres / géopolitique</li>
+      <li>News crypto (ETF, régulation)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📅 Calendrier économique</h2>
+    <ul>
+      <li>Lundi : PMI</li>
+      <li>Mardi : CPI</li>
+      <li>Mercredi : FOMC</li>
+      <li>Vendredi : NFP</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
